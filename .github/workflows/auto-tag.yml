@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - id: compute_tag
-        uses: craig-day/compute-tag@v10
+        uses: craig-day/compute-tag@v16
         with:
           github_token: ${{ github.token }}
           version_scheme: semantic
