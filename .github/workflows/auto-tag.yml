@@ -13,8 +13,7 @@ jobs:
         uses: craig-day/compute-tag@v10
         with:
           github_token: ${{ github.token }}
-          version_scheme: continuous
-          version_type: major
+          version_scheme: semantic
 
       - name: create release
         uses: actions/create-release@v1
